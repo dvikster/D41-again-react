@@ -1,0 +1,46 @@
+.main {
+  width: 90%;
+  margin:0 auto;
+}
+button{
+  margin:20px;
+  background: white;
+  border: 1px solid;
+  width:100px;
+  height:30px;
+}
+button:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+button.yellow {
+  color: yellow;
+}
+button.green {
+  color: green;
+}
+button.red {
+  color: red;
+}
+button.blue {
+  color: blue;
+}
+button.orange {
+  color: orange;
+}
+
+body.yellow {
+  background-color: yellow;
+}
+body.green {
+  background-color: green;
+}
+body.red {
+  background-color: red;
+}
+body.blue {
+  background-color: blue;
+}
+body.orange {
+  background-color: orange;
+}
