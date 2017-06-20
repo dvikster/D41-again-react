@@ -44,3 +44,6 @@ body.blue {
 body.orange {
   background-color: orange;
 }
+p.through{
+  text-decoration: line-through;
+}

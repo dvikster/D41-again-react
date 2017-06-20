@@ -14,8 +14,6 @@ export default class InputText extends Component {
         this.setState({ text: e.target.value })
     }
 
-
-
     render() {
         return (
             <div>
