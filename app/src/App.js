@@ -4,6 +4,7 @@ import InputText from './components/InputText'
 import ColorButtons from './components/ColorButtons'
 import InputPass from './components/InputPass'
 import InputPass1 from './components/InputPass1'
+import InputPass2 from './components/InputPass2'
 
 export default class App extends Component {
   render() {
@@ -26,8 +27,11 @@ export default class App extends Component {
         <h2>Задание 3: проверка пароля</h2>
         <InputPass />
 
-        <h2>Задание 3a: проверка пароля другой вариант</h2>
+        <h2>Задание 3a: проверка пароля - сокращенный вариант</h2>
         <InputPass1 />
+
+        <h2>Задание 3б: проверка пароля - другой странный вариант</h2>
+        <InputPass2 />
 
       </div>
     );
