@@ -5,6 +5,8 @@ import ColorButtons from './components/ColorButtons'
 import InputPass from './components/InputPass'
 import InputPass1 from './components/InputPass1'
 import InputPass2 from './components/InputPass2'
+import Timer from './components/Timer'
+import ProgressBar from './components/ProgressBar'
 
 export default class App extends Component {
   render() {
@@ -33,6 +35,13 @@ export default class App extends Component {
         <h2>Задание 3б: проверка пароля - другой странный вариант</h2>
         <InputPass2 />
 
+        <h2>Задание 4: Tаймер </h2>
+        <p>должен содержать внутри себя методы, которые мы прошли сегодня - componentDidMount - componentDidUnmount.
+          таймер простой, с текстом: "Прошло (определенное количество) секунд".</p>
+        <Timer />
+
+        <h2>Задание 5: Прогресс Бар </h2>
+        <ProgressBar />
       </div>
     );
   }
