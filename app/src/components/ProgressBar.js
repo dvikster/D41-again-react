@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 export default class ProgressBar extends Component {
     state = {
-        width: 80
+        width: 0
     }
 
     barWidth =()=> {
@@ -22,7 +22,6 @@ export default class ProgressBar extends Component {
                     <button onClick={this.barWidth}>+</button>
                     <button onClick={this.clearWidth}>clear</button>
                 </div>
-
             </div>
         );
     }

@@ -7,6 +7,7 @@ import InputPass1 from './components/InputPass1'
 import InputPass2 from './components/InputPass2'
 import Timer from './components/Timer'
 import ProgressBar from './components/ProgressBar'
+import LoadMoreBlock from './components/LoadMoreBlock'
 
 export default class App extends Component {
   render() {
@@ -42,6 +43,9 @@ export default class App extends Component {
 
         <h2>Задание 5: Прогресс Бар </h2>
         <ProgressBar />
+
+        <h2>Задание 6: Load More </h2>
+        <LoadMoreBlock />
       </div>
     );
   }
